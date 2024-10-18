@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JMR</title>
+    <link rel="stylesheet" href="jh.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div id="s">
+        <input type="file" style="display: none;" id="fille">
+        <label for="fille"><i class="fa fa-gear" aria-hidden="true"></i></label></div>
+    <div>
+       
+      <div id="im" onclick="saveTextAsFile()"> <img src="lo1.png" id="img" >
+    
+    <table id="tl">
+
+        <tr>
+            <th>  <p id="myParagraph">لم تداوان حد</p>
+</th>
+            <th>name</th>
+            <th>email</th>
+        </tr>
+    </table>
+    
+    
+    
+    </div> 
+    
+    </div>
+    <form >
+        <div class="id">
+<input type="number" placeholder="id student"  id="id">
+<input type="text" placeholder="full name"  id="name">
+<input type="text" placeholder="email"   id="email">
+
+</div>
+<input type="number" placeholder="عدد"   id="counter" max="10">
+
+<input type="button" id="bn" value="add">
+
+<input type="text" placeholder="Search By Id" id="search" onkeyup="sre(this.value)">
+</form>
+<table>
+    <thead>
+    </thead>
+    <tbody id="tbo" >
+            <tr id="yy">
+                <td>id</td>
+                <td>name</td>
+                <td>email</td>
+            </tr>
+
+    </tbody>
+</table>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="kkk.js"></script>
+</body>
+</html>
